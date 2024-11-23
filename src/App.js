@@ -20,7 +20,7 @@ import Skills from "./react-components/Skills"
 
 function App() {
     return (
-        <div>
+        <div id="main-screen">
             {/* <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />

@@ -1,0 +1,11 @@
+#download-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed; /* Fix the element at a specific position */
+    bottom: 0; /* Align it at the bottom of the screen */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    padding: 10px 0; /* Add some vertical padding */
+}

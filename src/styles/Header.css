@@ -1,0 +1,32 @@
+#header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+
+    width: 100%;
+
+    height: fit-content;
+    background-color: white;
+
+    /* border-style: solid; */
+}
+#header-elements {
+    width: calc(100% - 5em);
+}
+@media screen and (max-width: 600px) {
+    #header-elements {
+        width: calc(100% - 2em);
+    }
+}
+.logo {
+    font-size: x-large;
+    font-weight: 900;
+}
+#header > * {
+    z-index: inherit;
+}
+.centered {
+    justify-content: center;
+    align-items: center;
+}

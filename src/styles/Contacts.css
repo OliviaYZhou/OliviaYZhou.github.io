@@ -1,0 +1,43 @@
+#contact-page {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* #first-grid-item {
+    padding-left: 0px !important;
+} */
+#contact-header {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#contact-grid {
+    margin: 1em;
+    margin-right: 5em;
+    margin-left: 0px;
+    width: 100vw;
+    padding: 1em;
+    padding-right: 2em;
+    padding-left: 1px;
+}
+
+.contact-card {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    overflow-wrap: break-word;
+    height: 200px;
+}
