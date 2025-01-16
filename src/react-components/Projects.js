@@ -147,6 +147,46 @@ export default function Projects() {
             ]
         ],
         [
+            "Machine Unlearning using SISA method",
+            "Machine Learning",
+            "An implementation of SISA for efficient machine unlearning",
+            "•	Machine unlearning is a process to remove data from existing models upon request.\n\
+            •	The SISA method is meant to perform machine unlearning with minimal performance loss and retrain as quickly as possible\n\
+            •	We built a machine unlearning implementation of SISA to use with CIFAR-10 and MNIST classifiers\n\
+            •	Approach involved creating an ensemble of smaller trained models, \"shards\", each trained with segmented pieces of data, \"slices\", and strategically removing from a slice of data, retraining only a single shard from the slice removed. \n\
+            •	Implemented in both tensorflow and pytorch to compare performance. \n\
+            ",
+            [
+                ["Python", 3],
+                ["Tensorflow", 3],
+                ["Pytorch", 3],
+                ["Google Collab", 3],
+            ],
+            [
+                ["Machine Learning", 3],
+                ["Data augmentation", 3],
+            ]
+        ],
+        [
+            "Hate Crime Reporter",
+            "Android Mobile Application",
+            "Vancouver non-emergency police department",
+            "•	Vancouver police departments recieved abnormally high reports of hate crimes following COVID-19.\n\
+            •	This app was built on request by the South Vancouver Community Policing Department to help make a fast, streamlined, and anonymous reporting process for hate crimes in Vancouver.\n\
+            •	This is an android application, it allows anonymous reporting, image uploading, and text and selection fields based on police department criteria for reporting hate crime.\n\
+            •	Reports are sent to police department correctly formatted for faster processing.\n\
+            •	Built using Java in Android Studio. Design document was created and approved by management at SVCPC.\n\
+            ",
+            [
+                ["Java", 3],
+                ["Android Studio", 2]
+            ],
+            [
+                ["Mobile Development", 3],
+                ["Android Development", 3],
+            ]
+        ],
+        [
             "Novel Recommendation System",
             "Machine Learning",
             "Recommends novels on jjwxc.net",
@@ -229,6 +269,41 @@ export default function Projects() {
             ],
             [
                 ["Machine Learning", 3],
+            ]
+        ],
+        [
+            "Anxiety Simulator",
+            "Visual Novel",
+            "A unity based visual novel that simulates uncomfortable social situations",
+            "•	A visual novel made in unity where the main character tries to survive highschool amidst crippling social anxiety.\n\
+            •	A variety of fun and uncomfortable scenarios. You must not die of embarassment to complete the game.\n\
+            •	A friend and I drew the assets.\n\
+            •	Built in C# in Unity.\n\
+            ",
+            [
+                ["C#", 3],
+                ["Unity", 3],
+            ],
+            [
+                ["Game Development", 3],
+            ]
+        ],
+        [
+            "Mascot Pet Game",
+            "iOS Game",
+            "A cozy iOS mobile game where you care for a pet character",
+            "•	A mascot pet game where you can feed your character every day, gather items, and send them on short quests.\n\
+            •	Includes 3 main pages: home, inventory, and adventure. Home page has bars for character health and energy levels.\n\
+            •	Built in Swift on Xcode.\n\
+            ",
+            [
+                ["Swift", 3],
+                ["SwiftUI", 3],
+            ],
+            [
+                ["Mobile Development", 3],
+                ["iOS Development", 3],
+                ["Game Development", 3],
             ]
         ],
         [
