@@ -15,7 +15,7 @@ export default function AboutPage() {
                 <Box sx={{ typography: "body1", marginRight: "4em" }}>
                     <h1>About Me </h1>
                     <p>
-                        Hi! I'm Olivia Zhou, a final year Computer Science student at the University of Toronto. I will be graduating in May 2024 and am searching for new grad positions, or select internship positions for companies I'm very interested in.
+                        Hi! I'm Olivia Zhou, a final year Computer Science student at the University of Toronto. I will be graduating in May 2025 and am searching for new grad positions, or select internship positions for companies I'm very interested in.
                     </p>
                     <p>
                         I'm passionate about software development, and I'm always looking for opportunities to learn and grow.
